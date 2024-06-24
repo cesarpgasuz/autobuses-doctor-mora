@@ -10,7 +10,7 @@ function App() {
     <section className='w-[90%] sm:w-[80%] mx-auto max-w-screen-lg'>
       <h1 className='text-center font-bold text-slate-800 text-3xl'>Horario Flechas Amarillas Doctor Mora</h1>
 
-      {loading && <p className='text-center font-bold text-slate-300 text-3xl mt-8'>obteniendo los horario...</p>}
+      {loading && <p className='text-center font-bold text-slate-300 text-3xl mt-8'>obteniendo los horarios...</p>}
 
       {data && (
 

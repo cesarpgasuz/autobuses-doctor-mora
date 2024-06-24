@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 function ObtenerData(){
 
-    const [data, setData] = useState(null)
+    const [data, setData] = useState([])
     const [loading, setLoading] = useState(true)
 
    
